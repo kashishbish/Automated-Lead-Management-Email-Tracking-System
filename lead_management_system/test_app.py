@@ -231,7 +231,7 @@ def run_all_tests():
     
     # Summary
     print("\n" + "="*60)
-    print("📋 TEST SUMMARY")
+    print(" TEST SUMMARY")
     print("="*60)
     
     passed = sum(1 for _, result in results if result)
@@ -245,7 +245,7 @@ def run_all_tests():
     print("="*60)
     
     if passed == total:
-        print("\n🎉 All tests passed! Application is ready to use.")
+        print("\n All tests passed! Application is ready to use.")
         print("\nTo start the application, run:")
         print("  python3 app.py")
         print("\nOr use the startup script:")
