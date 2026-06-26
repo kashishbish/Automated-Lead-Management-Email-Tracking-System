@@ -6,7 +6,7 @@ import threading
 import os
 
 app = Flask(__name__)
-DATABASE = 'leads.db'
+DATABASE = '/tmp/leads.db'
 
 # ==================== Database Setup ====================
 def get_db_connection():
