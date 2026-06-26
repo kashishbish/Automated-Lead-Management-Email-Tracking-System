@@ -57,14 +57,12 @@ A complete web application built with Flask that automates lead capture, persona
 ##  Requirements
 
 - Python 3.7+
-- Flask 3.1.3 (already available on the system)
+- Flask 3.1.3 
 
 ## Quick Start
 
 ### 1. Navigate to the project directory:
-```bash
-cd /home/claude/lead_management_system
-```
+
 
 ### 2. Run the application:
 ```bash
