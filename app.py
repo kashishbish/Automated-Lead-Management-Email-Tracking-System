@@ -77,7 +77,7 @@ def send_email(lead_id, email_id):
         trackable_link = f"https://yourapp.com/track/click/{email_id}"
         
         print(f"\n{'='*60}")
-        print(f"📧 EMAIL SENT")
+        print(f"EMAIL SENT")
         print(f"{'='*60}")
         print(f"To: {lead['email']}")
         print(f"Name: {lead['full_name']}")
@@ -310,10 +310,10 @@ if __name__ == '__main__':
     
     # Run Flask app
     print(f"\n{'='*60}")
-    print("🚀 Starting Lead Management & Email Tracking System")
+    print(" Starting Lead Management & Email Tracking System")
     print(f"{'='*60}")
-    print("📊 Dashboard: http://localhost:5000/dashboard")
-    print("📝 Lead Form: http://localhost:5000/")
+    print(" Dashboard: http://localhost:5000/dashboard")
+    print(" Lead Form: http://localhost:5000/")
     print(f"{'='*60}\n")
     
     app.run(debug=True, host='0.0.0.0', port=5000)
